@@ -1,0 +1,9 @@
+[user]
+	name = Tomer Shaiman
+	email = tshaiman@microsoft.com
+#[credential]
+#	helper = osxkeychain
+[core]
+	editor = vim
+[credential]
+	helper = wincred
