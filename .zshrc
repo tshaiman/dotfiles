@@ -16,7 +16,7 @@ export LC_ALL=$LANG
 export HOMEBREW_NO_INSTALL_CLEANUP=1
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/tshaiman/.oh-my-zsh"
+
 export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -88,7 +88,7 @@ zsh-autosuggestions
 kubectl
 )
 
-
+export ZSH="/home/tshaiman/.oh-my-zsh"
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -137,3 +137,7 @@ source $HOME/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+source $ZSH/oh-my-zsh.sh
+
+
